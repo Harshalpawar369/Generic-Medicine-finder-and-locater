@@ -1,0 +1,257 @@
+/* Set default font family and color */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+     /* Change color as needed */
+}
+
+
+
+/* Section container */
+.map_section {
+    max-width: 85%;
+    margin: 10px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top:5%;
+    margin-bottom:5%
+}
+
+/* Heading style */
+.name h2 {
+    color: #4f9195;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* Info section container */
+.info-section {
+    background-color: #00c6a9;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+}
+#searchField {
+    padding: 10px; /* Add padding */
+    width: 60%; /* Set initial width */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    font-size: 16px;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+/* Search button style */
+#searchBtn {
+    padding: 10px 20px;
+    background-color: #4f9195;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#searchBtn:hover {
+    background-color: #3c7a7d;
+}
+
+
+/* Heading style */
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph style */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Innovative section style */
+.innovative {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.innovative h3 {
+    font-size: 24px;
+}
+
+/* Button style */
+.btn {
+    padding: 2% 4%; /* Adjust padding based on screen size */
+    background-color: #4f9195; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5vw; /* Adjust font size based on screen size */
+    transition: background-color 0.3s;
+    margin-bottom: 3%;
+}
+
+.btn:hover {
+    background-color: #3c7a7d;
+}
+
+
+/* Map container */
+#map {
+    height: 600px; /* Adjust the height as needed */
+    width: 100%; /* Ensure it takes full width */
+    border-radius: 15px;
+    bor /* Add border-radius for rounded corners */
+    margin-top: 20px; /* Add margin as needed */
+    margin-bottom: 5%; 
+
+}
+
+
+/* Innovative section style */
+.innovative {
+    margin-top: 30px;
+}
+
+.innovative h3 {
+    color: #4f9195;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.innovative p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: #555;
+}
+
+/* Info section content */
+.info-section-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Info section heading style */
+.info-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Info section paragraph style */
+.info-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Innovative section style */
+.innovative {
+    margin-top: 30px;
+}
+
+.innovative h3 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.innovative p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+/* Image style */
+.info-section img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+}
+/* Microphone button style */
+#mic {
+    padding: 10px;
+    background-color: #4f9195; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#mic:hover {
+    background-color: #3c7a7d; /* Hover background color */
+}
+
+
+
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .map_section {
+        padding: 20px;
+    }
+
+    .name h2 {
+        font-size: 20px;
+    }
+
+    .info-section {
+        padding: 30px;
+    }
+
+    .info-section img {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #map {
+        height: 300px;
+    }
+    #searchField {
+        width: 60%; /* Adjust width for smaller screens */
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .map_section {
+        padding: 10px;
+    }
+
+    .name h2 {
+        font-size: 18px;
+    }
+
+    .info-section {
+        padding: 20px;
+    }
+    #map {
+        height: 200px;
+    }
+    #searchField {
+        width: 50%; /* Adjust width for even smaller screens */
+    }
+  
+  
+}

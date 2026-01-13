@@ -1,0 +1,31 @@
+/* Add styles to position the user icon container */
+#user-icon-container {
+  position: relative;
+  z-index: 2; /* Make sure it's above other elements */
+}
+
+/* Update the styles for the user icon to ensure it's clickable */
+#user-icon {
+  font-size: 36px;
+  cursor: pointer;
+  color: #00c6a9;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+#user-icon:hover {
+  color: #00c6a9;
+}
+
+
+/* Update the styles for the popup */
+#popup {
+  border: solid black 2px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 300px;
+  width: 90%;
+  color: #333;
+}
+

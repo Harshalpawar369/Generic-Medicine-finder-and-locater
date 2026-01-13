@@ -1,0 +1,111 @@
+/* Update Profile Page Styles */
+.password-container {
+    position: relative;
+}
+
+.password-container input[type="password"] {
+    padding-right: 30px; /* Adjust the padding to make space for the eye icon */
+}
+
+.password-container i {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #ccc; /* Default color of eye icon */
+}
+
+.password-container i:hover {
+    color: #333; /* Color of eye icon on hover */
+}
+.update-profile {
+    max-width: 800px;
+    margin: 5% auto;
+    padding: 20px;
+    background-color: #f3fcfb;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.update-profile .title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.update-profile img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.update-profile .flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.update-profile .inputBox {
+    flex: 0 0 48%;
+}
+
+.update-profile .inputBox span {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.update-profile .inputBox .box {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.update-profile .flex-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.update-profile .btn {
+    padding: 10px 20px;
+    background-color: #00c6a9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.update-profile .btn:hover {
+    background-color: #3c7a7d;
+}
+
+.update-profile p {
+    margin-top: 10px;
+    color: #333;
+}
+.inputBox {
+    position: relative;
+}
+
+.password-container {
+    margin-top: 5px;
+}
+
+.password-container i {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+/* Add this CSS to your existing stylesheet or create a new CSS file */
+
+/* Style for eye icon */
+
